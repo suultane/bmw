@@ -51,7 +51,7 @@
 
 <div  class=" container position-relative text-center mt-4">
     <h1> Contact Us</h1>
-    <P> We do our best respond within 1 working day. <br>
+    <P> We do our best respond within working day. <br>
         Need help? Fill in the form below as soon as possible!</P>
 </div>
 
@@ -60,14 +60,41 @@
         <div class="row">
               <div class="col">
                   <label for="firstName">First Name</label>
-                  <input type="text" class="form-contlor" placeholder="First Name" id="firstname" name="firstname">
+                  <input style="border: solid rgb(192, 192, 192);" type="text" class="form-control" placeholder="First Name" id="firstName" name="firstname">
               </div>
-        </div>
-      </form>
+              <div class="col">
+                <label for="lastName">Last Name</label>
+                <input style="border: solid rgb(192, 192, 192);" type="text" class="form-control" placeholder="Last Name" id="lastName" name="lastname">
+            </div>
+        </div>    
 
+ <div class="form-group">
+        <label for="email"> Email Address</label>
+        <input style="border: solid rgb(192, 192, 192);" type="email" class="form-control" id="email" placeholder="name@exemple.com" name="email">
+ </div>
+
+ <div class="form-group" >
+    <label  for="products">model</label>
+        <select style="border: solid rgb(192, 192, 192);" class="form-control" id="products">
+            <option selected>Serie M8</option>
+            <option>Serie XL series</option>
+            <option>Black series</option>
+        </select>
+    </div>
+    <div class="form-group">
+      <label  for="message">Question</label>
+      <textarea style="border: solid rgb(192, 192, 192);" class="form-control" id="message" rows="3"></textarea>
+    </div>
+
+    <div class="form-group mt-3">
+      <button class="btn btn-secondary" type="submit" name="submit" value="submit" id="btnSubmit">
+        Submit
+      </button>
+
+    </div>
+
+    </form>
 </div>
-
-
 
 
 <div class="container footer">
